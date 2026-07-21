@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical & Travel Expense Request - WCB Manitoba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="controls">
+        <h3>🎛️ Test Dynamic Data</h3>
+        <button onclick="loadData('original')">Dataset 1: Original PDF</button>
+        <button onclick="loadData('empty')">Dataset 2: Empty</button>
+        <button onclick="loadData('full')">Dataset 3: Full (Many Rows)</button>
+        <button onclick="window.print()">🖨️ Print to PDF</button>
+        <p class="hint">Click buttons to switch datasets!</p>
+    </div>
+
+    <div class="page" id="page1"></div>
+
+
+    <div class="page" id="page2"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
